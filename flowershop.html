@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a variety of indoor plants for your home or office.">
+    <title>Indoor Plants</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: FloralWhite;
+            color: DarkSlateGrey;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: DarkGreen;
+            border-bottom: 2px solid Honeydew;
+            padding-bottom: 10px;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .plant-card {
+            background-color: White;
+            border: 1px solid Beige;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 40px;
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            box-shadow: 0px 4px 15px AntiqueWhite;
+        }
+
+        h2 {
+            color: SeaGreen;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+            font-style: italic;
+        }
+
+        .price {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: DarkOliveGreen;
+            margin: 15px 0;
+            font-style: normal;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            filter: grayscale(20%);
+            transition: 0.3s;
+        }
+
+        img:hover {
+            filter: grayscale(0%);
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Indoor Plants</h1>
+
+    <div class="plant-card">
+        <h2>Peace Lily</h2>
+        <p>The Peace Lily, known for its elegant white flowers, is a popular choice for indoor spaces.</p>
+        <p class="price">Price: $15</p>
+        <img src="https://edube.org/uploads/media/default/0001/04/spathiphyllum-peace-lily.jpg" alt="Peace Lily">
+    </div>
+
+    <div class="plant-card">
+        <h2>Zanzibar Gem</h2>
+        <p>The Zanzibar Gem, with its glossy green foliage, is a low-maintenance indoor plant perfect for beginners.</p>
+        <p class="price">Price: $20</p>
+        <img src="https://edube.org/uploads/media/default/0001/04/zamioculcas-zanzibar-gem.jpg" alt="Zanzibar Gem">
+    </div>
+
+</body>
+</html>
